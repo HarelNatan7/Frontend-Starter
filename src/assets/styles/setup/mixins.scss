@@ -70,40 +70,6 @@
   }
 }
 
-//mixin for header home page and login page
-
-@mixin btn-no-style {
-  border: none;
-  background: none;
-  cursor: pointer;
-}
-
-@mixin header {
-  width: 100%;
-  display: block;
-  padding-top: 10px;
-  padding-left: 8px;
-  border-bottom: 1px solid $header-border-bottom;
-  height: 65px;
-  background-color: $header-grey;
-}
-
-@mixin header-logo {
-  width: 40.5px;
-  height: 28px;
-  // width: 180px;
-  // height: 44px;
-  margin-left: 12px;
-}
-
-// login section mixins
-@mixin login-layout {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  color: #333;
-}
-
 @mixin flex-column {
   display: flex;
   flex-direction: column;
