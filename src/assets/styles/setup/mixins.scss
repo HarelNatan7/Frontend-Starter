@@ -70,11 +70,15 @@
   }
 }
 
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @mixin flex-column {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 @mixin absoluteCenter {
@@ -90,36 +94,8 @@
   white-space: nowrap;
 }
 
-@mixin flex-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 @mixin spacer {
-  border-bottom: 1px solid $cell-border-color;
+  border-bottom: 1px solid #9e9e9e;
   margin: 0 auto;
   width: 100%;
-}
-
-@mixin left-sticky {
-  position: sticky;
-  z-index: 4;
-  left: 40px;
-}
-
-//not working on the render
-@mixin arrow-up-modal($num) {
-
-  position: absolute;
-  width: 0;
-  height: 0;
-  transform: translate(-50%, 0);
-  top: -9px;
-  left: $num;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-bottom: 10px solid rgb(255, 255, 255);
-  border-color: $border-cell;
-
 }
