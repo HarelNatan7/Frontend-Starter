@@ -77,25 +77,6 @@
   align-items: center;
 }
 
-@mixin login-btn {
-  width: $fullPrecent;
-  min-width: $fullPrecent;
-  height: 100%;
-  cursor: pointer;
-  outline: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 28px;
-  border: none;
-  font-size: 18px;
-  color: $main-bgc-white;
-  background-color: $btn-blue;
-  margin: 0;
-  margin-top: 20px;
-  padding: 8px 16px;
-  border-radius: 4px;
-}
 
 @mixin login-link-back {
   border: none;
