@@ -5,10 +5,7 @@
 html {}
 
 body {
-  font-size: rem(18px);
-  margin: 0;
   margin: auto;
-  color: $main-color;
 }
 
 h1,
@@ -18,12 +15,6 @@ h4,
 h5,
 h6 {
   margin: 0;
-}
-
-section,
-main,
-footer {
-  // padding: 5px;
 }
 
 img {
@@ -36,20 +27,4 @@ p {
 
 a {
   text-decoration: none;
-}
-
-.btn {
-  @include btn;
-}
-
-.input {
-  @include input;
-}
-
-.loader {
-  @include absoluteCenter
-}
-
-.icon_component--clickable {
-  color: $icon-color;
 }
